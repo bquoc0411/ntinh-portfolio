@@ -1,0 +1,27 @@
+@import '../base.module'; 
+.logoWidth{
+    width: 40px;
+}
+.navName{
+    font-size: $font-stack;
+    font-size: 1.25rem !important;
+    text-decoration: none;
+    letter-spacing: 5px;
+    color: #000;
+}
+.textDecoration{
+    text-decoration: none;
+}
+
+@media (max-width: 478px){
+    .navName{
+        font-size: 1rem !important;
+    }
+}
+
+@media (max-width: 375px){
+    .navName{
+        font-size: 0.8rem !important;
+        letter-spacing: 3px;
+    }
+}

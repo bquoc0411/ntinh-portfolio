@@ -1,0 +1,39 @@
+@import '../base.module';
+.imgFadeIn {
+  width: 100%;
+}
+.weddingTitle, .myWorktitle h1{
+    margin-top: 120px;
+    font-family: $font-stack;
+    font-weight: 300 !important;
+
+}
+.weddingTitle{
+    text-align: center;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .title {
+    font-size: 2rem !important;
+  }
+}
+@media (max-width: 768px){
+    .title{
+        font-size: 1.5rem !important;
+    }
+}
+@media (max-width: 576px){
+    .title{
+        font-size: 1.25rem !important;
+    }
+}
+@media (max-width: 478px){
+    .title{
+        font-size: 1rem !important;
+    }
+}
+@media (max-width: 375px){
+    .title{
+        font-size: 0.8rem !important;
+    }
+}

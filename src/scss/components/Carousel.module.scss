@@ -1,0 +1,17 @@
+.carouselWrap{
+    margin-top: 70px;
+
+    .displayLogo{
+        width: 30%;
+        position: absolute;
+        top: 50;
+        right: 0;
+        transform: translateY(50%);
+        margin-right: 80px;
+    }
+}
+@media (max-width: 768px) {
+    .displayLogo{
+        display: none;
+    }
+ }
