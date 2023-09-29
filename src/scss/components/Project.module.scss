@@ -1,5 +1,7 @@
 @import "../base.module";
-
+.viewH{
+  min-height: 100vh;
+}
 .imgFadeIn {
   width: 100%;
   transition: 0.5s all ease-in-out;
@@ -35,6 +37,7 @@
 .weddingTitle {
   text-align: center;
 }
+
 
 @media (min-width: 768px) and (max-width: 1200px) {
   .title {
