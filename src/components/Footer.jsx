@@ -21,7 +21,7 @@ const Footer = () => {
             </a>
           </div>
           <div className="px-2">
-            <a href="">
+            <a href="https://www.youtube.com/channel/UCZVfd9rhMUgZT9V6nBsfabw">
               <img
                 src={youtube}
                 alt=""
@@ -31,7 +31,7 @@ const Footer = () => {
             </a>
           </div>
           <div className="px-2">
-            <a href="">
+            <a href="https://zalo.me/0858250855">
               <img src={zalo} alt="" style={{ width: "32px" }} loading="lazy" />
             </a>
           </div>

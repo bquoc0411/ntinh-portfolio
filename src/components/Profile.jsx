@@ -35,7 +35,7 @@ const Profile = () => {
                 </a>
               </div>
               <div className="px-2">
-                <a href=" https://zalo.me/">
+                <a href="https://zalo.me/0858250855">
                   <img src={zalo} alt="" style={{ width: "32px" }} />
                 </a>
               </div>

@@ -5,6 +5,8 @@ import About from "./pages/About";
 import MyWork from "../src/pages/MyWork";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ScrollToTop from "./hooks/ScrollToTop";
+import ProjectDetail from "./components/ProjectDetail";
+import { COMMERCIAL, EVENT, INTERVIEW, WEDDINGFilMS } from "./data";
 
 function App() {
   return (
@@ -15,6 +17,10 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/my-work" element={<MyWork />} />
             <Route path="/about" element={<About />} />
+            <Route path="/my-work/wedding" element={<ProjectDetail data={WEDDINGFilMS} heading={'WEDDING FILM'}/>} />
+            <Route path="/my-work/interview-podcast" element={<ProjectDetail data={INTERVIEW} heading={'INTERVIEW & PODCAST'}/>} />
+            <Route path="/my-work/event" element={<ProjectDetail data={EVENT} heading={'EVENT'}/>} />
+            <Route path="/my-work/commercial" element={<ProjectDetail data={COMMERCIAL} heading={'COMMERCIAL PRODUCT'}/>} />
           </Routes>
         </ScrollToTop>
       </BrowserRouter>
