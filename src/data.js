@@ -1,4 +1,3 @@
-
 const COMMERCIAL = [
   {
     id: "001",
@@ -90,4 +89,27 @@ const EVENT = [
   },
 ];
 
-export { COMMERCIAL, WEDDINGFilMS, INTERVIEW, EVENT };
+const LIFESTYLE = [
+  {
+    id: "001",
+    title: "CAR 6700",
+    link: "https://www.youtube.com/embed/-7A7ctCHWz0",
+  },
+  {
+    id: "002",
+    title: "CANG TIN 109",
+    link: "https://www.youtube.com/embed/yPKDT5y_va8",
+  },
+  {
+    id: "003",
+    title: "CAMPING CHOM NUI",
+    link: "https://www.youtube.com/embed/6dWSfsQkBe0",
+  },
+  {
+    id: "004",
+    title: "Shot on Sony FX30 | Sigma 18-50mm f/2.8 | Video Portrait",
+    link: "https://www.youtube.com/embed/whZ4t3r3ybA",
+  },
+];
+
+export { COMMERCIAL, WEDDINGFilMS, INTERVIEW, EVENT, LIFESTYLE };
