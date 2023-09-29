@@ -14,7 +14,7 @@ const Navbar = () => {
           NGUYENTIENLINH
         </a>
         <button
-          className="navbar-toggler"
+          className="navbar-toggler collasped"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarCollapse"
@@ -24,7 +24,7 @@ const Navbar = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="navbar-collapse collapse show" id="navbarCollapse">
+        <div className="navbar-collapse collapse" id="navbarCollapse">
           <ul className="navbar-nav ms-auto mb-2 mb-md-0">
             <NavLink
               className={classNames("nav-item", style.textDecoration)}
