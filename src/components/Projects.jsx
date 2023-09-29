@@ -14,7 +14,7 @@ const Projects = () => {
         <div className={classNames("col-lg-2 col-3")}>
           <h1 className={classNames(style.title)}>
             <Link to={"/my-work/commercial"} className={style.textDeco}>
-              {"Commercial\nProduct"}
+              {"Commercial\nProducts"}
             </Link>
           </h1>
         </div>
@@ -44,7 +44,7 @@ const Projects = () => {
         <div className={classNames("col-lg-2 col-3")}>
           <h1 className={classNames(style.title)}>
             <Link to={"/my-work/event"} className={style.textDeco}>
-              {"Event"}
+              {"Events"}
             </Link>
           </h1>
         </div>
@@ -59,7 +59,7 @@ const Projects = () => {
         <div className={classNames("col-lg-2 col-3")}>
           <h1 className={classNames(style.title)}>
             <Link to={"/my-work/interview-podcast"} className={style.textDeco}>
-              {"Interview\nPodcast"}
+              {"Interviews\nPodcasts"}
             </Link>
           </h1>
         </div>

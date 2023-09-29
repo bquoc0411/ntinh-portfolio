@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className="bg-dark text-white mt-5">
       <div className="d-flex flex-md-row flex-column justify-content-center align-items-center pb-3">
         <div className="px-3 pt-0 pt-sm-3 order-md-1 order-2 fs-3">
-          Let's Connect
+          Let's Connect!
         </div>
         <div className="px-3 pt-3 order-md-2 order-1">
           <img src={logo} alt="" style={{ width: "60px" }} />

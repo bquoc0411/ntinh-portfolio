@@ -17,10 +17,10 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/my-work" element={<MyWork />} />
             <Route path="/about" element={<About />} />
-            <Route path="/my-work/wedding" element={<ProjectDetail data={WEDDINGFilMS} heading={'WEDDING FILM'}/>} />
-            <Route path="/my-work/interview-podcast" element={<ProjectDetail data={INTERVIEW} heading={'INTERVIEW & PODCAST'}/>} />
-            <Route path="/my-work/event" element={<ProjectDetail data={EVENT} heading={'EVENT'}/>} />
-            <Route path="/my-work/commercial" element={<ProjectDetail data={COMMERCIAL} heading={'COMMERCIAL PRODUCT'}/>} />
+            <Route path="/my-work/wedding" element={<ProjectDetail data={WEDDINGFilMS} heading={'WEDDING FILMS'}/>} />
+            <Route path="/my-work/interview-podcast" element={<ProjectDetail data={INTERVIEW} heading={'INTERVIEWS & PODCASTS'}/>} />
+            <Route path="/my-work/event" element={<ProjectDetail data={EVENT} heading={'EVENTS'}/>} />
+            <Route path="/my-work/commercial" element={<ProjectDetail data={COMMERCIAL} heading={'COMMERCIAL PRODUCTS'}/>} />
             <Route path="/my-work/lifestyle" element={<ProjectDetail data={LIFESTYLE} heading={'LIFESTYLE'}/>} />
           </Routes>
         </ScrollToTop>

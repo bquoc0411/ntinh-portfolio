@@ -16,7 +16,7 @@ const Profile = () => {
         </div>
         <div className="col-lg-6 d-flex flex-column justify-content-center">
           <div>
-            <p className={style.aboutText}>Hi, I'm Linh</p>
+            <p className={style.aboutText}>Hi, I'm Linh.</p>
             <p className={style.aboutText}>
               I'm a videographer based in Hanoi.
             </p>
