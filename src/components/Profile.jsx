@@ -4,7 +4,7 @@ import zalo from "../assets/footer-icon-link/Icon_of_Zalo.svg.webp";
 import youtube from "../assets/footer-icon-link/youtube-logo.webp";
 import style from "../scss/About.module.scss";
 import classNames from "classnames";
-import aboutImg from "../assets/ntlinh/about.png";
+import aboutImg from "../assets/ntlinh/about.jpg";
 import ModalZalo from "./ModalZalo";
 
 const Profile = () => {
