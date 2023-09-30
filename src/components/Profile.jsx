@@ -5,6 +5,7 @@ import youtube from "../assets/footer-icon-link/youtube-logo.webp";
 import style from "../scss/About.module.scss";
 import classNames from "classnames";
 import aboutImg from "../assets/ntlinh/about.png";
+import ModalZalo from "./ModalZalo";
 
 const Profile = () => {
   return (
@@ -34,11 +35,17 @@ const Profile = () => {
                   <img src={youtube} alt="" style={{ width: "32px" }} />
                 </a>
               </div>
-              <div className="px-2">
-                <a href="https://zalo.me/0858250855">
+              <div
+                className="px-2"
+                style={{ cursor: "pointer" }}
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                <span>
                   <img src={zalo} alt="" style={{ width: "32px" }} />
-                </a>
+                </span>
               </div>
+              <ModalZalo />
             </div>
           </div>
         </div>

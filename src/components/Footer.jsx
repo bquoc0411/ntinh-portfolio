@@ -3,6 +3,8 @@ import logo from "../assets/Logo/L2.png";
 import fb from "../assets/footer-icon-link/2021_Facebook_icon.svg.png";
 import zalo from "../assets/footer-icon-link/Icon_of_Zalo.svg.webp";
 import youtube from "../assets/footer-icon-link/youtube-logo.webp";
+import ModalZalo from "./ModalZalo";
+import classNames from "classnames";
 
 const Footer = () => {
   return (
@@ -30,11 +32,18 @@ const Footer = () => {
               />
             </a>
           </div>
-          <div className="px-2">
-            <a href="https://zalo.me/0858250855">
+          <div
+            className='px-2'
+            style={{cursor: 'pointer'}}
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+
+          >
+            <span>
               <img src={zalo} alt="" style={{ width: "32px" }} loading="lazy" />
-            </a>
+            </span>
           </div>
+          <ModalZalo />
         </div>
       </div>
     </footer>
