@@ -6,8 +6,8 @@ const COMMERCIAL = [
   },
   {
     id: "002",
-    title: "JOHN WALKER & SON XR",
-    link: "https://www.youtube.com/embed/hca_y75wuP0",
+    title: "Making of John Walker & Son XR 21 - \"Đậu Bạc\" Limited Edition | by 50mm Vietnam",
+    link: "https://www.youtube.com/embed/tIa1W_rctKQ",
   },
   {
     id: "003",
@@ -21,9 +21,13 @@ const COMMERCIAL = [
   },
   {
     id: "005",
-    title:
-      'Making of John Walker & Son XR 21 - "Đậu Bạc" Limited Edition | by 50mm Vietnam',
-    link: "https://www.youtube.com/embed/tIa1W_rctKQ",
+    title: "Máy xay Nagakawa",
+    link: "https://www.youtube.com/embed/tfMK9WcCnFc",
+  },
+  {
+    id: "006",
+    title: "Intro Sony a6700",
+    link: "https://www.youtube.com/embed/7qEMGCUljVs",
   },
 ];
 
@@ -109,6 +113,16 @@ const LIFESTYLE = [
     id: "004",
     title: "Shot on Sony FX30 | Sigma 18-50mm f/2.8 | Video Portrait",
     link: "https://www.youtube.com/embed/whZ4t3r3ybA",
+  },
+  {
+    id: "005",
+    title: "Hihaus x Feliz Homes",
+    link: "https://www.youtube.com/embed/2jWGp2hUbMw",
+  },
+  {
+    id: "006",
+    title: "Canon EOS R5 x 50mm Vietnam and a photography trip in Hue",
+    link: "https://www.youtube.com/embed/xpNYu0RLbHU",
   },
 ];
 
